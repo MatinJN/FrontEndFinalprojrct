@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+i{
+    color: rgb(254, 242, 242);
+    cursor: pointer;
+    font-size: 25 px;
+    position: relative;
+}
+
+span{
+    position: absolute;
+    font-size: 14px;
+    background-color: yellow;
+    color: black;
+    padding: 2px 4px;
+    border-radius: 100%;
+    top: -13px;
+    right: -13px;
+}
+
+a{
+    color: yellow;
+    cursor: pointer;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.login{
+    width: 30%;
+    margin: 40px auto;
+}
+
+.login input{
+    margin-bottom: 15px;
+}
